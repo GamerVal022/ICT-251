@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuunda Banda - Student Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome To The World Of Web Programming!</h1>
+        <p class="subtitle">Kuunda Banda &nbsp;|&nbsp; Student No: 202502965</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">My Hobbies</a>
+        <a href="#learning-plan">My Learning Plan</a>
+        <a href="#photos">My Photos</a>
+        <a href="#media">My Media</a>
+        <a href="#contact">Contact</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank" rel="noopener">MDN Web Docs
+            (external)</a>
+    </nav>
+
+    <main>
+
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>
+                Hello World, my name is Kuunda Banda, and I am a Computer Science student at Mulungushi
+                University in Zambia. I am a highly ambitious individual with a strong desire
+                to contribute to the development of the world through technology. I was first
+                introduced to computers by my father when I was very young, so I have interacted
+                with computers for as long as I can remember.At first, most of what I did on
+                computers was the obvious playing video games, watching movies and exploring
+                different forms of entertainment. However, as my knowledge of technology grew,
+                I began to realise that computers were not simply machines for entertainment.
+                I started to understand the power that technology holds and how significant it
+                has become in shaping the way people communicate, learn, work and solve problems.
+                Today, my interest in technology goes beyond simply using it; I want to understand
+                how it works and learn how to use it to create solutions that are useful to
+                people and businesses. As I study Computer Science and Web Technologies,
+                I am developing the ability to think critically, learn new technologies and
+                approach problems with a solution-oriented mindset. I want to become someone who
+                can be relied upon to show up, understand a problem, take responsibility and
+                contribute something of real value. My goal is not only to gain technical
+                knowledge, but to turn that knowledge into practical solutions that can make a
+                meaningful difference.
+
+        </section>
+
+        <section id="hobbies" class="content-section">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Web Programming</li>
+                <li>Playing Video Games</li>
+                <li>Playing an Electric Guitar</li>
+            </ul>
+
+            <h3>Steps To Improve My Web Skills</h3>
+            <ol>
+                <li>Practice HTML and CSS daily using small personal projects like this one.</li>
+                <li>Learn JavaScript fundamentals through W3Schools and build interactive elements.</li>
+                <li>Study a real-world project on GitHub and try to recreate parts of it myself.</li>
+            </ol>
+        </section>
+
+        <section id="learning-plan" class="content-section">
+            <h2>My Learning Plan</h2>
+            <table>
+                <caption>Weekly Web Learning Plan</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Practice Task</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>HTML Structure</td>
+                        <td>Rebuild this page's layout from scratch</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>CSS Styling</td>
+                        <td>Practice flexbox with a photo gallery</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>JavaScript Basics</td>
+                        <td>Write a simple form validation script</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="photos" class="content-section">
+            <h2>My Photos</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="images/photo_1.jpg" alt="Kuunda Banda smiling at campus">
+                    <figcaption>Me on campus, first week of the semester.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo_3.jpg" alt="Kuunda Banda playing an electric guitar">
+                    <figcaption>Practicing guitar, one of my favorite hobbies.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/photo_2.jpg" alt="Kuunda Banda at a computer coding">
+                    <figcaption>Working on a coding Project in my room.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="media" class="content-section">
+            <h2>My Media</h2>
+
+            <h3>Video Introduction</h3>
+            <video controls src="videos/vid1.mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="media-caption">
+                In this short video I introduce myself, mention that I study Computer Science,
+                and share that I hope to become more confident with JavaScript.
+            </p>
+
+            <h3>Audio Clip</h3>
+            <audio controls src="videos/aud.m4a">
+                Your browser does not support the audio tag.
+            </audio>
+            <p class="media-caption">
+                In this audio clip, I talk about my Interest in relation to Technolgy
+            </p>
+        </section>
+
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <p><em>Note: This form is a browser demonstration only and does not send data anywhere.</em></p>
+            <form action="#">
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="topic">Topic:</label>
+                    <select id="topic" name="topic">
+                        <option value="general">General Inquiry</option>
+                        <option value="project">Project Feedback</option>
+                        <option value="collab">Collaboration</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kuunda Banda. Built for ICT251 Web Technologies.</p>
+    </footer>
+
+</body>
+
+</html>
